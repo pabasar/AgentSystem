@@ -1,4 +1,4 @@
-package Sample.t1;
+package Sample.AgentSystem;
 
 import jade.core.*;
 import jade.core.behaviours.CyclicBehaviour;
@@ -27,7 +27,7 @@ public class Agent1 extends Agent
 			
 			try
 			{
-				File f=new File("C:/Users/PSurasinghe/Desktop/4.2/Agent Technology/New Jade/jade/JADE-all-4.5.0/JADE-src-4.5.0/jade/src/Sample/t1/data.txt");    
+				File f=new File("C:/Users/Pabasar/Agent Technology/New Jade/jade/JADE-all-4.5.0/JADE-src-4.5.0/jade/src/Sample/t1/data.txt");    
 				FileReader fr=new FileReader(f);   
 				BufferedReader br=new BufferedReader(fr);  
 				
