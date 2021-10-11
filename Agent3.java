@@ -1,4 +1,4 @@
-package Sample.t1;
+package Sample.AgentSystem;
 
 import jade.core.*;
 import jade.core.behaviours.CyclicBehaviour;
@@ -72,23 +72,3 @@ public class Agent3 extends Agent
 		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
