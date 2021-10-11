@@ -1,4 +1,4 @@
-package Sample.t1;
+package Sample.AgentSystem;
 
 import jade.core.*;
 import jade.core.behaviours.CyclicBehaviour;
@@ -60,10 +60,10 @@ public class Agent2 extends Agent
 				{
 					String dat = msg.getContent().toString();
 					
-					try (PrintWriter pw = new PrintWriter(new File("C:/Users/PSurasinghe/Desktop/4.2/Agent Technology/New Jade/jade/JADE-all-4.5.0/JADE-src-4.5.0/jade/src/Sample/t1/dat.csv"))) 
+					try (PrintWriter pw = new PrintWriter(new File("C:/Users/Pabasar/Agent Technology/New Jade/jade/JADE-all-4.5.0/JADE-src-4.5.0/jade/src/Sample/t1/dat.csv"))) 
 					{
 						pw.write(dat);
-						sendMsg("Agent3","C:/Users/PSurasinghe/Desktop/4.2/Agent Technology/New Jade/jade/JADE-all-4.5.0/JADE-src-4.5.0/jade/src/Sample/t1/dat.csv",ACLMessage.REQUEST);
+						sendMsg("Agent3","C:/Users/Pabasar/Agent Technology/New Jade/jade/JADE-all-4.5.0/JADE-src-4.5.0/jade/src/Sample/t1/dat.csv",ACLMessage.REQUEST);
 					} 
 					catch(FileNotFoundException e) 
 					{
@@ -75,23 +75,3 @@ public class Agent2 extends Agent
 		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
