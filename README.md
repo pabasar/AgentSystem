@@ -7,5 +7,5 @@ Output as follows.
 
 ![agent](https://user-images.githubusercontent.com/49782156/136830504-224ced25-bdf5-41f8-b94b-618f21bee143.PNG)
 
-To compile : javac -classpath lib\jade.jar -d classes src\Sample\AgentSystem\*.java                                                                                                
+To compile : javac -classpath lib\jade.jar -d classes src\Sample\AgentSystem\\*.java                                                                                               
 To Run : java -cp lib\jade.jar;classes jade.Boot -gui
